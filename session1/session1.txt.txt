@@ -1,0 +1,44 @@
+step1 :
+mkdir "mina bassem"
+cd "mina bassem"
+
+step2 :
+cd documents
+touch file1.txt file2.txt file3.txt
+ls
+
+step3:
+touch .hidden_file
+ls
+
+step4: nano file1.txt
+cat file1.txt
+
+step6 :
+mkdir "-"
+ls
+cd .. 
+cd documents/-
+
+
+step7 :
+cd ../..
+cp -r doucments my_documents
+ls
+
+step8:
+ls -a
+cat .hidden_file
+
+step 9:
+
+cd doucments
+mv file2.txt ~/documents
+mv file3.txt ~/documents
+
+
+step 10 : 
+
+cd ..
+rm -r "mina bassem"
+ls
